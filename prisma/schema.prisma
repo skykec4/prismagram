@@ -42,7 +42,7 @@ model User {
   likes       Like[]
   comments    Comment[]
   rooms       Room[]
-  loginSecret String
+  loginSecret String?
 }
 
 model Post {
